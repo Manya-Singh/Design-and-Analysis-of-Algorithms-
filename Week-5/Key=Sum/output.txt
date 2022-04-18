@@ -1,1 +1,2 @@
-
+10 40, 12 38
+No such pair exist
