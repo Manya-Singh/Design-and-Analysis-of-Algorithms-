@@ -1,2 +1,2 @@
 # Design-and-Analysis-of-Algorithms-
-Assignments of DAA will be submitted in this repository.
+Laboratory Assignments of DAA will be submitted in this repository.
