@@ -3,28 +3,23 @@ using namespace std;
 
 int main(){
     int n,key,i,t;
-    cout<<"Enter number of test cases: ";
-    cin>>t;
+    cin>>t; //Total number of test cases
     while(t--){
-        cout<<"Enter size of array: ";
-        cin>>n;
+        cin>>n; //Size of array
         int arr[n];
-        cout<<"Enter elements of array: ";
+        //Elements of array
         for(i=0;i<n;i++){
             cin>>arr[i];
         }
-        cout<<"Enter element to be found: ";
-        cin>>key;
+        cin>>key; //Element to be found
         for(i=0;i<n;i++){
             if(key==arr[i]){
-                cout<<"Element found in array at location: "<<i+1<<endl;
-                cout<<"Total number of comparisons: "<<i+1<<endl;
+                cout<<"Present "<<i+1<<endl;
                 break;
             }
         }
         if(i==n){
-            cout<<"Element not found in array!"<<endl;
-            cout<<"Total number of comparisons: "<<n<<endl;
+            cout<<"Not Present "<<n<<endl;
         }
     }
     return 0;
